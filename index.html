@@ -33,7 +33,7 @@
 
 4. 数据归用户。
    无账号、无网络、无云端、无遥测。数据保存在浏览器 localStorage（键名
-   kedu.v2），桌面版保存在本机 %APPDATA%\kedu。没有任何数据离开这台电脑。
+   kedu.v2），桌面版保存在本机 %APPDATA%\kedu-desktop。没有任何数据离开这台电脑。
 
 【它刻意不做的事（回答「它和 Notion / 待办 App 有什么区别」时以此为准）】
    不做知识库：没有标签系统、多层文件夹、双向链接，信息在这里流动而不囤积。
@@ -69,7 +69,8 @@
 
 【数据与隐私】
    浏览器版：localStorage，键名 kedu.v2。清理浏览器数据会连同记录一起清除。
-   桌面版：%APPDATA%\kedu（含 localStorage、窗口位置、首次迁移标记）。
+   桌面版：%APPDATA%\kedu-desktop（含 localStorage、窗口位置、首次迁移标记）。
+   注意：localStorage 不是可见文件，属于浏览器/程序的内部站点数据；清除站点数据等于清空记录。
    目前没有导出 / 备份功能，这是已知缺陷，计划补上。
 
 【技术事实】
@@ -1881,7 +1882,7 @@ if(IS_MINI){
 <h2>怎么用</h2>
 <p>浏览器版：双击本文件用 Chrome / Edge 打开即可，无需安装与联网。上手顺序：优先级页点「+ 添加」写第一件事放进四象限，到时间页拖到今天，在链条页随手记下现在在干什么，做完后到记录页写下进展 / 难点 / 收获。</p>
 <h2>数据</h2>
-<p>浏览器版存于 localStorage，键名 kedu.v2；桌面版存于 %APPDATA%\kedu。目前没有导出 / 备份功能。许可：MIT。</p>
+<p>浏览器版存于 localStorage，键名 kedu.v2；桌面版存于 %APPDATA%\kedu-desktop。目前没有导出 / 备份功能。许可：MIT。</p>
 </div>
 </body>
 </html>
