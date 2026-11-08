@@ -22,9 +22,13 @@
 
 ## 快速开始
 
-**浏览器版**（推荐 Chrome / Edge 116+）：下载 [`index.html`](index.html)，双击打开即用。
+| 方式 | 入口 | 说明 |
+|---|---|---|
+| **在线试用** | <https://sutton-26.github.io/kedu/> | 点开就是软件，不用下载。国内访问 `github.io` 可能不稳 |
+| **浏览器版** | [`index.html`](index.html) | 下载单文件，双击用 Chrome / Edge 打开即用 |
+| **Windows 桌面版** | [Releases](https://github.com/sutton-26/kedu/releases) | 下载 zip，解压后双击 `kedu.exe`，免安装；含原生置顶小窗与 `Alt+L` |
 
-**Windows 桌面版**：见 [`app/`](app/) 目录，离线安装包内含全部功能，任务数据可从浏览器版自动迁移。
+三种方式的数据各自独立（在线版、本地文件、桌面版互不相通），选一种长期用就好。
 
 ## 四个页面
 
