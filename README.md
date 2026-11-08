@@ -22,13 +22,20 @@
 
 ## 快速开始
 
-| 方式 | 入口 | 说明 |
-|---|---|---|
-| **在线试用** | <https://sutton-26.github.io/kedu/> | 点开就是软件，不用下载。国内访问 `github.io` 可能不稳 |
-| **浏览器版** | [`index.html`](index.html) | 下载单文件，双击用 Chrome / Edge 打开即用 |
-| **Windows 桌面版** | [Releases](https://github.com/sutton-26/kedu/releases) | 下载 zip，解压后双击 `kedu.exe`，免安装；含原生置顶小窗与 `Alt+L` |
+一共两个版本：**网页版**和**桌面版**。
 
-三种方式的数据各自独立（在线版、本地文件、桌面版互不相通），选一种长期用就好。
+### 网页版：一个 `index.html`，两种打开方式
+
+| 打开方式 | 入口 | 数据存在哪 |
+|---|---|---|
+| 在线打开 | <https://sutton-26.github.io/kedu/> | `github.io` 域名下的浏览器存储 |
+| 下载到本地 | 下载 [`index.html`](index.html)，双击用 Chrome / Edge 打开 | 本机浏览器 `file://` 的存储 |
+
+同一份代码，功能一模一样。两种打开方式**数据不互通**——浏览器按域名分开存，所以挑一种用到底，别来回换。桌面版的置顶小窗需要 Chrome / Edge 116+ 的画中画能力。
+
+### 桌面版：独立程序，功能最全
+
+到 [Releases](https://github.com/sutton-26/kedu/releases) 下载 `kedu-desktop-win64.zip`，解压后双击 `kedu.exe`，免安装。比网页版多了原生置顶小窗和全局 `Alt+L`，数据存在 `%APPDATA%\kedu-desktop`，与网页版互不相通。
 
 ## 四个页面
 
